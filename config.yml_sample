@@ -1,0 +1,12 @@
+# haproxy configuration. see README
+haproxy:
+  stats_url: http://localhost:3084/stats
+  credentials:
+    username: stats
+    password: stats
+
+# graphite configuration
+graphite:
+  host: 10.10.10.10
+  port: 2003
+  prefix: my.prefix.haproxy
